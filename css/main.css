@@ -39,6 +39,11 @@
 
 }
 
+#gallery img {
+	cursor: pointer; 
+	cursor: hand;
+}
+
 .row > div {
 
 }
