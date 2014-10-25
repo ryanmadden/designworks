@@ -2,16 +2,6 @@
    Author's custom styles
    ========================================================================== */
 
-.fixed {
-	position: fixed;
-	width: 25%;
-}
-
-.scrollable {
-	float: right;
-	width: 71%;
-}
-
 #logo {
 	margin-top: 40px;
 }
@@ -24,6 +14,11 @@
 	border-radius: 5px;
 	padding: 5px;
 	padding-bottom: 0px;
+}
+
+#about-wrapper p {
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
 }
 
 #social-wrapper {
@@ -44,13 +39,27 @@
 	margin-bottom: 30px;
 }
 
-#gallery > div {
-	margin-top: 30px;
+#gallery div {
+	padding: 0px;
+
 }
 
 .row > div {
 
 }
+
+@media (min-width: 992px) {
+	.fixed {
+		position: fixed;
+		width: 25%;
+	}
+	.scrollable {
+	float: right;
+	width: 71%;
+	}
+}
+
+
 
 
 
