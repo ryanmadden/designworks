@@ -59,11 +59,122 @@
 	}
 }
 
+footer {
+	text-align: center;
+}
+
+#footer-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30px;
+	height: 30px;
+}
 
 
+/* Hexagon */
+#positioner {
+	margin-left: -58px;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+#big {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	text-align: center;
+	margin-left: 50%;
+	z-index: 9;
+}
+#big div div {
 
+  	position:fixed;
+  	z-index: 10;
+}
+#big {
+  width: 100%;
+  text-align: center;
+  padding-left: 100px;
+}
+#a {
+      -ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(60deg);
+	width: 0; 
+	height: 0; 
+	border-left: 58px solid transparent;
+	border-right: 58px solid transparent;
+	
+	border-bottom: 100px solid #FBEF72;
+	margin-top: 2px;
+  margin-left: 14px;
+} 
+#b {
+      -ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	width: 0; 
+	height: 0; 
+	border-left: 58px solid transparent;
+	border-right: 58px solid transparent;
+	
+	border-bottom: 100px solid #AC1A76;
+  margin-top: 124px;
+} 
+#c {
+      -ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	width: 0; 
+	height: 0; 
+	border-left: 58px solid transparent;
+	border-right: 58px solid transparent;
+	
+	border-bottom: 100px solid #FEA25D;
+  margin-left: -58px;
+  margin-top: 26px;
+} 
+#d {
+      -ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	width: 0; 
+	height: 0; 
+	border-left: 58px solid transparent;
+	border-right: 58px solid transparent;
+	
+	border-bottom: 100px solid #83CBA4;
+  margin-left: 58px;
+  margin-top: 26px;
+} 
+#e {
+      -ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+	width: 0; 
+	height: 0; 
+	border-left: 58px solid transparent;
+	border-right: 58px solid transparent;
+	
+	border-bottom: 100px solid #00B1E4;
+  margin-left: 59px;
+  margin-top: 126px;
+} 
 
-
+#f {
+      -ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+	width: 0; 
+	height: 0; 
+	border-left: 58px solid transparent;
+	border-right: 58px solid transparent;
+	
+	border-bottom: 100px solid #F0423A;
+  margin-left: -58px;
+  margin-top: 125px;
+} 
 
 
 
