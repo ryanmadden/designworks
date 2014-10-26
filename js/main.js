@@ -1,5 +1,6 @@
 $(document).ready(function()
 {
+	//Hexagon loading screen
 	$("#a").fadeTo(500, 1, function() {
 		$("#b").fadeTo(500, 1, function() {
 			$("#c").fadeTo(500, 1, function() {
