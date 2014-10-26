@@ -6,6 +6,11 @@ $(document).ready(function()
 				$("#e").fadeTo(500, 1, function() {
 					$("#d").fadeTo(500, 1, function() {
 						$("#f").fadeTo(500, 1, function() {
+							$("#title-wrapper").fadeTo(500, 1, function() {
+								$("#cover").fadeTo(800, 0, function() {
+										$("#cover").css("display", "none");
+	});
+	});
 	});
 	});
 	});
