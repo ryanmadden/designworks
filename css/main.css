@@ -69,6 +69,22 @@ footer {
 	height: 30px;
 }
 
+#warning {
+	background: #FF4D4D;
+	border: 1px solid #FF0000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#warning > p {
+	margin: 0px;
+}
+
 
 /* Loading screen */
 #positioner {
