@@ -59,6 +59,12 @@
 	}
 }
 
+@media (max-width: 768px) {
+	#cover {
+		display: none;
+	}
+}
+
 footer {
 	text-align: center;
 }
