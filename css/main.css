@@ -40,6 +40,10 @@
 	cursor: hand;
 }
 
+p {
+	font-family: 'Ek Mukta', sans-serif;
+}
+
 @media (min-width: 992px) {
 	.fixed {
 		position: fixed;
