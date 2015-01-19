@@ -1,5 +1,11 @@
 $(document).ready(function()
 {
+
+	var scale = 1 / (window.devicePixelRatio || 1);
+	var content = 'width=device-width, initial-scale=' + scale + ', minimum-scale=' + scale;
+
+	document.querySelector('meta[name="viewport"]').setAttribute('content', content);
+	
 	//Hexagon loading screen
 	var loadtime = 400;
 	var fadedelay = 800;
@@ -26,4 +32,8 @@ $(document).ready(function()
 		$("#modal-img").attr("src", $(this).attr('src'));
 		$('#zoomModal').modal('show');
 	});
+
+
+
+
 })
