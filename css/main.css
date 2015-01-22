@@ -50,8 +50,12 @@ p {
 		width: 25%;
 	}
 	.scrollable {
-	float: right;
-	width: 71%;
+		float: right;
+		width: 71%;
+	}
+	#gallery {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 
