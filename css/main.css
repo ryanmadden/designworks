@@ -12,17 +12,17 @@
 	padding-bottom: 0px;
 }
 
-#social-wrapper {
+.social-wrapper {
 	margin-top: 25px;
-	text-align: center;
+	text-align: left;
 }
 
 #facebook {
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
-	width: 30px;
-	height: 30px;
+	margin-right: 0px;
+	width: 40px;
+	height: 40px;
 }
 
 #gallery {
@@ -56,6 +56,9 @@ p {
 	#gallery {
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.content {
+		width: 90%;
 	}
 }
 
@@ -99,26 +102,26 @@ footer {
 	margin-left:48%;
 	margin-top: 20%;
 	-ms-transform: rotate(30deg); /* IE 9 */
-    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
-    tranform: rotate(30deg);
+	-webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+	tranform: rotate(30deg);
 
 
 }
 
 @-moz-document url-prefix() {
-    #positioner {
-    	transform: 
+	#positioner {
+		transform: 
 		translateZ(1px)
 		rotate(31deg);
-    }
+	}
 }	
 
 #title-wrapper {
-width:40%;
-margin-left: auto;
-margin-right: auto;
-margin-top: 28%;
-opacity: 0;
+	width: calc(512px - 1%);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: calc(300px + 4%);
+	opacity: 0;
 }
 
 #cover {
@@ -137,8 +140,8 @@ opacity: 0;
 }
 #big div div {
 	opacity: 0;
-  	position:fixed;
-  	z-index: 10;
+	position:fixed;
+	z-index: 10;
 	width: 0; 
 	height: 0;  
 	border-left: 58px solid transparent;
@@ -146,45 +149,60 @@ opacity: 0;
 }
 
 #a {
-    -ms-transform: rotate(1800deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
+	-ms-transform: rotate(1800deg); /* IE 9 */
+	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform: rotate(180deg);
 	border-bottom: 100px solid #FBEF72;
 	margin-top: 27px;
-  	margin-left: 0px;
+	margin-left: 0px;
 } 
 #b {
 	border-bottom: 100px solid #AC1A76;
-  	margin-top: 124px;
+	margin-top: 124px;
 } 
 #c {
 	border-bottom: 100px solid #FEA25D;
-  	margin-left: -58px;
-  	margin-top: 26px;
+	margin-left: -58px;
+	margin-top: 26px;
 } 
 #d {
 	border-bottom: 100px solid #83CBA4;
-  	margin-left: 58px;
-  	margin-top: 26px;
+	margin-left: 58px;
+	margin-top: 26px;
 } 
 #e {
-     -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
+	-ms-transform: rotate(180deg); /* IE 9 */
+	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform: rotate(180deg);
 	border-bottom: 100px solid #00B1E4;
-  	margin-left: 58px;
-  	margin-top: 125px;
+	margin-left: 58px;
+	margin-top: 125px;
 } 
 #f {
-    -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
+	-ms-transform: rotate(180deg); /* IE 9 */
+	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform: rotate(180deg);
 	border-bottom: 100px solid #F0423A;
-  	margin-left: -58px;
-  	margin-top: 125px;
+	margin-left: -58px;
+	margin-top: 125px;
 } 
 
+textarea {
+    resize: none;
+}
 
+#contact-btn {
+	color: black;
+	font-size: 1em;
+	background-color: #E6E6E6;
+	border: 1px solid #E6E6E6;
+	border-radius: 5px;
+	text-align: center;
+	height: 40px;
+	padding-left: 8px;
+	padding-right: 8px;
+	/*width: 130px;*/
+}
 
 
 

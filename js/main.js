@@ -32,6 +32,10 @@ $(document).ready(function()
 		$("#modal-img").attr("src", $(this).attr('src'));
 		$('#zoomModal').modal('show');
 	});
+	$('#contact-btn').click(function()
+	{
+		$('#mailModal').modal('show');
+	});
 
 
 

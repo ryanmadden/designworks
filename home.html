@@ -3,127 +3,171 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>DesignWorks</title>
-        <meta name="description" content="Protoype landing page for DesignWorks">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>DesignWorks</title>
+  <meta name="description" content="Protoype landing page for DesignWorks">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
-        <link rel="icon" href="img/favicon.ico" sizes="32x32">
+  <link rel="icon" href="img/favicon.ico" sizes="32x32">
 
-        <link href='https://fonts.googleapis.com/css?family=Ek+Mukta' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Ek+Mukta' rel='stylesheet' type='text/css'>
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <noscript><style> .jsonly { display: none } </style></noscript>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <!-- Client-side form validator for contact section -->
+  <script src="js/gen_validatorv31.js"></script>
 
-    <div class="container">
-        <noscript>
-            <div id="warning">
-                <p>It looks like you may have disabled Javascript! Please allow DesignWorks to run scripts to see the site as it was meant to be!</p>
-            </div>
-        </noscript>        
-    </div> 
-    <!--Covers the page while loadign animation runs-->
-    <div id="cover" class="jsonly">
-      <div id="big">
-        <!--Positions divs to make hexagon-->
-        <div id="positioner">
-          <div id="a"></div>
-          <div id="b"></div>
-          <div id="c"></div>
-          <div id="d"></div>
-          <div id="e"></div>
-          <div id="f"></div>
-        </div>
-        <div id="title-wrapper">
-          <img src="img/logotext.png" class="img-responsive">
-        </div>
-      </div>
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <noscript><style> .jsonly { display: none } </style></noscript>
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="container">
+  <noscript>
+    <div id="warning">
+      <p>It looks like you may have disabled Javascript! Please allow DesignWorks to run scripts to see the site as it was meant to be!</p>
     </div>
+  </noscript>        
+</div> 
+<!--Covers the page while loadign animation runs-->
+<div id="cover" class="jsonly">
+  <div id="big">
+    <!--Positions divs to make hexagon-->
+    <div id="positioner">
+      <div id="a"></div>
+      <div id="b"></div>
+      <div id="c"></div>
+      <div id="d"></div>
+      <div id="e"></div>
+      <div id="f"></div>
+    </div>
+    <div id="title-wrapper">
+      <img src="img/logotext.png" class="img-responsive">
+    </div>
+  </div>
+</div>
 
-    <div class="container">
+<div class="container content">
+  <div class="row">
+    <div class="col-md-3 col-sm-12 fixed">
+      <img src="img/logo.png" class="img-responsive" id="logo">
+      <div id="about-wrapper">
+        <p>DesignWorks is a company devoted to offering high-quality design services to members and groups of the Northwestern community. The mission of DesignWorks is both to address the design needs of Northwestern as well as to generate design opportunities for talented students.</p>
+        <p>If you are interested in our services, please email us at hello@designworks.nu</p>
+      </div>
       <div class="row">
-        <div class="col-md-3 col-sm-12 fixed">
-          <img src="img/logo.png" class="img-responsive" id="logo">
-          <div id="about-wrapper">
-            <p>DesignWorks is a company devoted to offering high-quality design services to members and groups of the Northwestern community. The mission of DesignWorks is both to address the design needs of Northwestern as well as to generate design opportunities for talented students.</p>
-            <p>If you are interested in our services, please email us at hello@designworks.nu</p>
-          </div>
-          <div id="social-wrapper">
+        <div class="col-xs-4 col-xs-offset-2">
+          <div class="social-wrapper">
             <a href="https://www.facebook.com/nupsd" target="_blank">
               <img src="img/icon-facebook.jpg" class="img-responsive" id="facebook">
             </a>
           </div>
         </div>
-        <div class="col-md-9 col-sm-12 scrollable">
-          <div class="row" id="gallery">
-            <div class="col-sm-8 col-xs-12">
-              <div class="col-sm-6 col-xs-6">
-                <img src="img/lion.png" class="img-responsive">
-                <img src="img/logos/sheparddm.png" class="img-responsive">
-                <img src="img/com/yoga.jpg" class="img-responsive">
-                <img src="img/flyers/freedom.png" class="img-responsive">
-              </div>
-              <div class="col-sm-6 col-xs-6">
-                <img src="img/flyers/donut.jpg" class="img-responsive">
-                <img src="img/posters/chinanight.jpg" class="img-responsive">
-                <img src="img/flyers/counterpoint.jpg" class="img-responsive">
-              </div>
-              <div class="col-xs-12">
-                <img src="img/flyers/refreshdance.png" class="img-responsive">
-              </div>
-            </div>
-            <div class="col-sm-4 hidden-xs">
-              <img src="img/posters/passionpit.jpg" class="img-responsive">
-              <img src="img/logos/wholeplanet.jpg" class="img-responsive">
-              <img src="img/posters/birdart.png" class="img-responsive">
-              <img src="img/logos/chinanorth.jpg" class="img-responsive">
-            </div>  
+        <div class="col-xs-6">
+          <div class="social-wrapper">
+            <button type="submit" value="Submit" id="contact-btn">Contact Us</button>
           </div>
         </div>
       </div>
-      <!-- Modal -->
-      <div class="modal fade" id="zoomModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-body">
-              <img src="img/flyers/donut.jpg" id="modal-img" class="img-responsive">
+    </div>
+    <div class="col-md-9 col-sm-12 scrollable">
+      <div class="row" id="gallery">
+        <div class="col-sm-8 col-xs-12">
+          <div class="col-sm-6 col-xs-6">
+            <img src="img/lion.png" class="img-responsive">
+            <img src="img/logos/sheparddm.png" class="img-responsive">
+            <img src="img/com/yoga.jpg" class="img-responsive">
+            <img src="img/flyers/freedom.png" class="img-responsive">
+          </div>
+          <div class="col-sm-6 col-xs-6">
+            <img src="img/flyers/donut.jpg" class="img-responsive">
+            <img src="img/posters/chinanight.jpg" class="img-responsive">
+            <img src="img/flyers/counterpoint.jpg" class="img-responsive">
+          </div>
+          <div class="col-xs-12">
+            <img src="img/flyers/refreshdance.png" class="img-responsive">
+          </div>
+        </div>
+        <div class="col-sm-4 hidden-xs">
+          <img src="img/posters/passionpit.jpg" class="img-responsive">
+          <img src="img/logos/wholeplanet.jpg" class="img-responsive">
+          <img src="img/posters/birdart.png" class="img-responsive">
+          <img src="img/logos/chinanorth.jpg" class="img-responsive">
+        </div>  
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="zoomModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="img/flyers/donut.jpg" id="modal-img" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="mailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form method="POST" name="contactform" action="contact-form-handler.php"> 
+            <div class="form-group">
+              <label for='name'>Name:</label> <br>
+              <input type="text" class="form-control" name="name">
             </div>
+            <div class="form-group">
+              <label for='email'>Email:</label> <br>
+              <input type="text" class="form-control" name="email"> <br>
+            </div>
+            <div class="form-group">
+              <label for='message'>Message:</label> <br>
+              <textarea name="message" class="form-control" rows="4"></textarea>
+            </div>
+            <button type="submit" value="Submit" class="btn btn-primary" id="submit-btn">Submit
+            </button><br>
+          </form>
+          <script type="text/javascript">
+            // Code for validating the form
+            // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+            // for details
+            var frmvalidator  = new Validator("contactform");
+            frmvalidator.addValidation("name","req","Please provide your name"); 
+            frmvalidator.addValidation("email","req","Please provide your email"); 
+            frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+            </script>
           </div>
         </div>
       </div>
+    </div>
+    <hr>
 
-      <hr>
+    <footer>
+      <img src="img/logosquare.png" id="footer-img" class="img-responsive">
+      <p>Developed by Ryan Madden</p>
+    </footer>
+  </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
-      <footer>
-        <img src="img/logosquare.png" id="footer-img" class="img-responsive">
-        <p>Developed by Ryan Madden</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+  <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='//www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+</body>
 </html>
