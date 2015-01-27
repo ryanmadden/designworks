@@ -130,6 +130,7 @@ footer {
 	height: 100vh;
 	z-index: 100;
 	position: fixed;
+	display: none;
 }
 
 #big {
@@ -209,7 +210,7 @@ textarea {
 }
 
 #submit-btn {
-	
+
 }
 
 
