@@ -37,6 +37,22 @@ $(document).ready(function()
 		$('#mailModal').modal('show');
 	});
 
+	$("input#submit-btn").click(function(){
+        $.ajax({
+            type: "POST",
+            url: "process.php", //process to mail
+            data: $('form.contactform').serialize(),
+            success: function(msg){
+                $("#thanks").html(msg) //hide button and show thank you
+                $("#mailModal").modal('hide'); //hide popup 
+                $("form#contactform").find("input[type=text], textarea").val(""); //clear the fields
+            },
+            error: function(){
+                alert("Message failed to send");
+            }
+        });
+    });
+
 
 
 

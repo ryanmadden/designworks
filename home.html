@@ -18,9 +18,6 @@
 
   <link href='https://fonts.googleapis.com/css?family=Ek+Mukta' rel='stylesheet' type='text/css'>
 
-  <!-- Client-side form validator for contact section -->
-  <script src="js/gen_validatorv31.js"></script>
-
   <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   <noscript><style> .jsonly { display: none } </style></noscript>
 </head>
@@ -118,7 +115,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
-          <form method="POST" name="contactform" action="contact-form-handler.php"> 
+          <form name="contactform" id="contactform" class="contactform"> 
             <div class="form-group">
               <label for='name'>Name:</label> <br>
               <input type="text" class="form-control" name="name">
@@ -131,18 +128,11 @@
               <label for='message'>Message:</label> <br>
               <textarea name="message" class="form-control" rows="4"></textarea>
             </div>
-            <button type="submit" value="Submit" class="btn btn-primary" id="submit-btn">Submit
-            </button><br>
           </form>
-          <script type="text/javascript">
-            // Code for validating the form
-            // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-            // for details
-            var frmvalidator  = new Validator("contactform");
-            frmvalidator.addValidation("name","req","Please provide your name"); 
-            frmvalidator.addValidation("email","req","Please provide your email"); 
-            frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-            </script>
+          <div class="button-wrapper">
+            <input class="btn btn-primary" type="submit" value="Send!" id="submit-btn">
+            <a href="#" class="btn" data-dismiss="modal">Cancel</a>
+          </div>
           </div>
         </div>
       </div>
