@@ -1,6 +1,5 @@
 <?php
-//add the recipient's address here
-$myemail = 'hello@designworks.nu';
+$myemail = 'name@domain.com';
  
 //grab named inputs from html
 if (isset($_POST['name'])) {
